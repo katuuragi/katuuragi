@@ -1,92 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Moon rainbow</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="moon rainbow">
+	<meta name="viewport" content="width=device-width">
+	<title>moon rainbow</title>
+	<link rel="stylesheet" media="all" href="style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-              aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">moon rainbow</a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="h1">あばうと</a></li>
-              <li><a href="#works">さくひん</a></li>
-              <li><a href="#contact">こんたくと</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <div class="container">
-      　<div class="starter-template">
-      　    <p><a href="https://twitter.com/katuuragi67?lang=ja" stayl="font-size: 20px;">本人の趣味</a></p>
-      　    <div id="header">
-      　        <h1>Moon rainbow</h1>
-      　    </div>
-        　  <div id="main">
-        　      <p>こんにちは、藤井尊です。使用言語pythonとcssとhtmlです</p>
-        　  </div>
-             <div id="main">
-                <img src="月.jpg"  alt="月の写真" title="月">
-        　  <div id="h1">
-        　  <h3>どう言った人物なのか</h3>
-        　  </div>
-        　  <div id="main">
-        　       <p>千葉県船橋市にて生命を授かった<br>
-        　      幼稚園の時に現在の住まいである<u>神奈川県</u>に引っ越す<br>
-        　      そのまま近所の小学校、中学校に進学し普通の日々を送っていた<br>
-                小学校ではそろばん教室に通い、暗算検定2級、珠算検定準2級合格<br>
-                中学校では風紀委員を務めていました。<br>
-        　      高校は実家にいながら新宿にある<b>関東国際高校</b>に進学しクラス委員や生徒会など普通の生活を送っている<br>
-                在学中にインドネシア語を勉強、様々な言語に興味が湧きグローバルにも強い関心を抱く<br>
-        　      今現在も武蔵野大学データサイエンス学部に所属し普通の生活を送っている</p>
-        　  </div>
-            <h2 id="h1">趣味</h2>
-            <ul class="list-group">
-                <li class="list-group-item">ビリヤード</li>
-                <li class="list-group-item">ダーツ</li>
-                <li class="list-group-item">ゲーム</li>
-                <li class="list-group-item">チュウニズム</li>
-            </ul>
-        　  <div h1 id="content2">
-        　      <h3>今までの成果物</h3>
-        　  </div>
-        　  <div id="main">
-        　      <p><a href="https://drive.google.com/drive/u/0/folders/14bPbglY4QYOqK8hcJKiRtU3teiZ9rzKq" >未来想像pj成果物</a></p>
-        　  </div>
-        　  <div id="h1">
-        　      <h>好きなゲーム</h2>
-        　  </div>
-        　  <div id="main">
-        　      <p>rainbow six siegeを高校生の時にハマり、現在のプレイ時間は2500時間を超している<br>
-        　      他にもノベルゲームが趣味であり、40作品程度プレイ。今や生活の一部である</p>
-            </div>
-            <div id="h1">
-                <h>連絡</h2>
-            </div>
-            <div id="main">
-                katuuragi94＠gmail.com
-            </div>
-            <a class="btn btn-primary" href="#">上に戻る</a><br>
-            <small>© 2020 takeru Fujii</small>
-        </div>
-    </div>
+<body id="top">
+	<div id="wrapper">
+
+		<div id="sidebar">
+			<div id="sidebarWrap">
+				<h1><img src="images/logo.png" width="87" height="25" alt="logo"></h1>
+				<nav id="mainnav">
+					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+					<div class="panel">
+						<ul>
+							<li><a href="#top">TOP</a></li>
+							<li><a href="#sec01">SELF-INTRODUCTION</a></li>
+							<li><a href="#sec02">GALLERY</a></li>
+							<li><a href="#sec03">HOBBY</a></li>
+							<li><a href="#sec04">DELIVERABLE</a></li>
+							<li><a href="#sec05">SCHOOL</a></li>
+						</ul>
+						<ul id="sns">
+							<li><a href="https://www.facebook.com/profile.php?id=100013958146667" target="_blank"><img src="images/iconFb.png" width="20" height="20" alt="FB"></a></li>
+							<li><a href="https://twitter.com/katuuragi67" target="_blank"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a></li>
+							<li><a href="https://www.instagram.com/marshmallowkamoshirenai/" target="_blank"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div id="content">
+			<p id="mainImg"><img src="images/mainImg.jpg" alt=""></p>
+			<!-- SELF-INTRODUCTION -->
+			<section id="sec01">
+				<header>
+					<h2><span>SELF-INTRODUCTION</span></h2>
+				</header>
+				<div class="innerS">
+					<p>千葉県船橋市にて生命を授かった<br>
+					幼稚園の時に現在の住まいである<u>神奈川県</u>に引っ越す<br>
+					そのまま近所の小学校、中学校に進学し普通の日々を送っていた<br>
+					小学校ではそろばん教室に通い、暗算検定2級、珠算検定準2級合格<br>
+					中学校では風紀委員を務めていました。<br>
+					高校は実家にいながら新宿にある<b>関東国際高校</b>に進学しクラス委員や生徒会など普通の生活を送っている<br>
+					在学中にインドネシア語を勉強、様々な言語に興味が湧きグローバルにも強い関心を抱く<br>
+					今現在も武蔵野大学データサイエンス学部に所属し普通の生活を送っている</p>
+				</div>
+			</section>
+			<!-- // SELF-INTRODUCTION -->
+			<!-- GALLERY -->
+			<section id="sec02">
+				<header>
+					<h2><span>GALLERY</span></h2>
+				</header>
+				<ul id="gallery">
+					<li><img src="images/IMG_001.JPG" width="360" height="350" alt=""></li>
+					<li><img src="images/IMG_002.JPG" width="360" height="350" alt=""></li>
+					<li><img src="images/IMG_003.JPG" width="360" height="350" alt=""></li>
+					<li><img src="images/IMG_004.JPG" width="360" height="350" alt=""></li>
+					<li><img src="images/IMG_005.JPG" width="360" height="350" alt=""></li>
+					<li><img src="images/IMG_006.JPG" width="360" height="350" alt=""></li>
+					<li class="full"><img src="images/IMG_007.JPG" width="1080" height="695" alt=""></li>
+
+				</ul>
+			</section>
+			<!-- // GALLERY -->
+			<!-- HOBBY -->
+			<section id="sec03">
+				<header>
+					<h2><span>HOBBY</span></h2>
+				</header>
+				<div class="inner">
+					<ul class="col4">
+						<li>
+							<p class="img"><img src="images/darts.png" width="168" height="168" alt=""></p>
+							<p>高校1年次に友達の紹介により初め、毎月1回はやっている。</p>
+						</li>
+						<li>
+							<p class="img"><img src="images/billiard.png" width="168" height="168" alt=""></p>
+							<p>ダーツを教えてもらうついでに教えてもらった。苦手だが楽しい。</p>
+						</li>
+						<li>
+							<p class="img"><img src="images/game.png" width="168" height="168" alt=""></p>
+							<p>小学校の頃からハマり、今現在もゲームをすることに命をかけている。最近はノベルゲームに人生をささげている</p>
+						</li>
+						<li>
+							<p class="img"><img src="images/sleep.png" width="168" height="168" alt=""></p>
+							<p>睡眠は生活する上で必ず必要になるものだ。</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- // HOBBY -->
+			<!-- DELIVERABLE -->
+			<section id="sec04">
+				<header>
+					<h2><span>DELIVERABLE</span></h2>
+				</header>
+				<div class="inner">
+					<div class="article">
+						<img src="images/IMG_008.JPG" width="370" height="224" alt="">
+                        <p><a href="https://drive.google.com/drive/u/0/folders/14bPbglY4QYOqK8hcJKiRtU3teiZ9rzKq" >未来想像pj成果物</a>はこちら<br>
+                        私自身様々なことに興味があるため、かなり豊富なアイディアが出てくると思う。それは既存のものかもしれないし新規のものかもしれない。この未来想像では、授業ないでのリアクションについて研究したものだ。改善の余地はあるためこれからも精進していきたい</p>
+					</div>
+					<div class="article">
+						<img src="images/IMG_009.JPG" width="370" height="224" alt="">
+						<p>私は大学祭実行委員の委員長局に所属しております。私は誰かを楽しませることがすごい好きで武蔵野大学に入る前から学園祭実行委員に入ることを決めていた。</p>
+                        <p>仕事の中にはレンジャーショーがあり、私はラスボスを演じました。その時に殺陣の練習をしたりなどかなり大変でしたが、達成感がありとてもやってよかったです。</p>
+                        <p>大学祭実行委員は実質2年生が動かすので、これからたくさんの仕事があると思います。楽しみながらきちんとやり、みんなを楽しませたいです！！</p>
+					</div>
+				</div>
+			</section>
+			<!-- // DELIVERABLE -->
+			<!-- SCHOOL -->
+			<section id="sec05">
+				<header>
+					<h2><span>SCHOOL</span></h2>
+				</header>
+				<div class="inner">
+					<ul class="col2">
+						<li>
+							<p>〒135-8181<br>東京都江東区有明3丁目3-3</p>
+							<p>TEL 03-5530-7333</p>
+							<p>Wedsite https://www.musashino-u.ac.jp/ariake/</p>
+						</li>
+						<li>
+							<div id="map">
+								<!-- GOOGLE MAP -->
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.862485750649!2d139.78441391528645!3d35.631116440326025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889ddf4423259%3A0x782c0b3dc184deb6!2z5q2m6JS16YeO5aSn5a2mIOacieaYjuOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1593157128081!5m2!1sja!2sjp"  allowfullscreen="" aria-hidden="false"></iframe>
+								<!-- // GOOGLE MAP -->
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- // SCHOOL -->
+
+			<footer id="footer">
+				<small>© 2020 Takeru Fujii</small>
+			</footer>
+
+		</div>
+	</div>
 
 </body>
-
 </html>
